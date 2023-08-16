@@ -1,0 +1,51 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: static;
+    background-color: white;
+    z-index: 100;
+    width: 100%;
+}
+
+.header_icon{
+    object-fit: contain;
+    height: 50px;
+    margin-top: 5px;
+}
+
+.header_search{
+    display: flex;
+    align-items: center;
+    flex: 1;
+    max-width: fit-content;
+    padding: 10px;
+    height: 10px;
+    border: 1px solid lightgray;
+    border-radius: 999px;
+}
+
+.date_picker{
+    background-color: white !important;
+    font-weight: 500 !important;
+    text-transform: inherit !important;
+    color: #ff7779 !important;
+    padding-left: -10px !important;
+    height: 22px !important;
+    border: none !important;
+}
+
+.header_search > input {
+    border: none;
+    /*width: 250px;*/
+    padding: 7px;
+    outline-width: 0;
+}
+
+.header_right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 15vw;
+    margin-right: 80px;
+}
